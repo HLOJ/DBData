@@ -1,0 +1,5 @@
+#!/bin/sh
+./db_baskup.sh
+git add --all
+git commit -m "Update Database"
+git push
