@@ -1,5 +1,5 @@
 #!/bin/sh
-./db_baskup.sh
+./db_backup.sh
 git add --all
 git commit -m "Update Database"
 git push
